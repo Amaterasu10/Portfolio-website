@@ -1,0 +1,39 @@
+header{
+    background-color: #2B2929;
+}
+nav{
+    //background-color: lightcoral;
+    width: 95%;
+    display: flex;
+    padding: 5px;
+    margin: 0 auto;
+    justify-content:space-between ;
+
+    *{
+        text-decoration: none;
+        color:inherit;
+    }
+    ul{
+        display: none;
+    }
+    li{
+        display: inline-block;
+    }
+}
+
+.burger-nav{
+    padding: 5px;
+    border-radius: 5%;
+    //background-color: lightgreen;
+    display: inline-block;
+    .bar{
+        //background-color: black;
+        background-color: #585656;
+        width: 50px;
+        height: 8px;
+        
+    }
+    :nth-child(2){
+        margin: 7px 0;
+    }
+}

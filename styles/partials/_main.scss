@@ -1,0 +1,31 @@
+.projects-list{
+    height: 100vh;
+    //background-color: #163967;
+
+    .category-title{
+       // color: azure;
+        text-align: center;padding: 5px;
+    }
+}
+
+.project-container{
+    //background-color: yellow;
+    padding: 10px;
+    height: 60vh;
+    width: 90%;
+    margin: 0 auto;
+
+    .project-title{
+        text-align: center;
+    }
+
+    iframe{
+        //background-color: yellowgreen;
+        display: block;
+        border: none;
+        width: 90%;
+        padding: 10px;
+        margin: 0 auto;
+        height: 90%;
+    }
+}
