@@ -1,22 +1,37 @@
 .projects-list{
     height: 100vh;
-    //background-color: #163967;
+    background-color: $secondary-color;
 
     .category-title{
-       // color: azure;
-        text-align: center;padding: 5px;
+        color: $primary-color;
+        text-align: center;
+        padding: 5px;
     }
 }
 
 .project-container{
-    //background-color: yellow;
+    //background-color: $secondary-color;
     padding: 10px;
-    height: 60vh;
+
     width: 90%;
     margin: 0 auto;
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
 
     .project-title{
         text-align: center;
+    }
+
+    section{
+        width: 100%;
+    }
+    section + section{
+        background-color: #272525;
+    }
+    p{
+        width: 95%;
+        margin: 0 auto;
     }
 
     iframe{

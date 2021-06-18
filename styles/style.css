@@ -30,7 +30,7 @@ nav {
 
 nav * {
   text-decoration: none;
-  color: inherit;
+  color: #D3FBD8;
 }
 
 nav ul {
@@ -48,7 +48,7 @@ nav li {
 }
 
 .burger-nav .bar {
-  background-color: #585656;
+  background-color: #D3FBD8;
   width: 50px;
   height: 8px;
 }
@@ -59,22 +59,44 @@ nav li {
 
 .projects-list {
   height: 100vh;
+  background-color: #D3FBD8;
 }
 
 .projects-list .category-title {
+  color: #2B2929;
   text-align: center;
   padding: 5px;
 }
 
 .project-container {
   padding: 10px;
-  height: 60vh;
   width: 90%;
   margin: 0 auto;
+  background-color: #2B2929;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .project-container .project-title {
   text-align: center;
+}
+
+.project-container section {
+  width: 100%;
+}
+
+.project-container section + section {
+  background-color: #272525;
+}
+
+.project-container p {
+  width: 95%;
+  margin: 0 auto;
 }
 
 .project-container iframe {
