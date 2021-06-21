@@ -7,10 +7,10 @@
     }
 
     .category-title{
-        color: $secondary-color;
+
         background-color: $darker-primary-color;
         text-align: center;
-        padding: 5px;
+        padding: 10px;
         margin: 10px 0;
     }
 }
@@ -18,17 +18,37 @@
 .project-closet{
     background-color: $primary-color;
     margin: 15px 0;
-    h3{
+
+
+    .project-header{
         text-align: center;
-        padding: 20px;
         background-color: $darker-primary-color;
+        
+
+    }
+
+    .project-title{
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+    
+    button{
+        padding: 0.6em;
+        margin: 10px 0;
+        background-color: $primary-color;
+        border: none;
     }
 
     .project-container{
         height: 0vh;
         transition: 0.2s;
-        width: 80%;
+        width: 90%;
         margin: 0 auto; 
+    }
+
+    .container-opened{
+        height: 80vh;
+
     }
 
     iframe{

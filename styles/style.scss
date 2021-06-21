@@ -8,13 +8,14 @@
     color: white;
 }
 
-$primary-color: #373F4F;
-$darker-primary-color: #0C111C;
+$primary-color: #373f4f;
+$darker-primary-color: #0c111c;
 $secondary-color: #236FFC;
 
 body,html{
     height: 100%;
-}
+    color: white;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
 body::-webkit-scrollbar {
     width: 10px;
@@ -26,13 +27,16 @@ body::-webkit-scrollbar {
   }
    
   body::-webkit-scrollbar-thumb {
-    background-color: $primary-color;
+    background-color: $darker-primary-color;
     outline: 1px solid $secondary-color;
   }
+
+  
+
 
 @import './partials/header';
 @import './partials/main';
 @import './partials/footer';
 @import './partials/mediaQ';
 @import "scss/fontawesome.scss";
-@import "scss/solid.scss";
+@import "scss/solid.scss";                                                                          
