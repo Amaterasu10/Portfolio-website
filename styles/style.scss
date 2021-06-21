@@ -8,15 +8,31 @@
     color: white;
 }
 
-$primary-color: #2B2929;
-$secondary-color: #D3FBD8;
+$primary-color: #373F4F;
+$darker-primary-color: #0C111C;
+$secondary-color: #236FFC;
 
 body,html{
     height: 100%;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+
+ }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: $primary-color;
+    outline: 1px solid $secondary-color;
+  }
 
 @import './partials/header';
 @import './partials/main';
 @import './partials/footer';
 @import './partials/mediaQ';
+@import "scss/fontawesome.scss";
+@import "scss/solid.scss";

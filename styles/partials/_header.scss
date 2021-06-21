@@ -1,5 +1,5 @@
 header{
-    background-color: $primary-color;
+    background-color: $darker-primary-color;
 }
 nav{
     //background-color: lightcoral;
@@ -7,7 +7,8 @@ nav{
     display: flex;
     padding: 5px;
     margin: 0 auto;
-    justify-content:space-between ;
+    justify-content:space-between;
+    align-items: center;
 
     *{
         text-decoration: none;
