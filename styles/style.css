@@ -114,10 +114,9 @@ nav li {
 
 .project-closet .project-container {
   height: 0vh;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  width: 90%;
-  margin: 0 auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 100%;
 }
 
 .project-closet .container-opened {
@@ -128,6 +127,13 @@ nav li {
   width: 100%;
   height: 100%;
   border: none;
+  opacity: 0;
+}
+
+.project-closet .project-opened {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .project-closet .project-details {
